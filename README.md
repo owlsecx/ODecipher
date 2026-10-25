@@ -18,13 +18,18 @@
 
 ## 📌 Overview
 
-Text analysis, pattern detection, cryptanalysis
+ODecipher is a text sleuth and cryptanalysis workbench for pattern detection, encoding experiments, and classical analysis. It bundles many text operations so analysts can reverse, transform, and probe suspicious strings during forensics or CTF work. Aimed at defensive investigation of encoded or obfuscated content.
 
 ---
 
 ## ✨ Features
 
-- Text forensics & encoding workbench: 35 operations incl. Base32/64/85, Atbash, Morse, hashing, pattern/IOC analysis & Caesar brute-force
+- Large set of text operations including reverse and classical transforms
+- Pattern detection aids for suspicious or structured content
+- Cryptanalysis-oriented helpers for encoded and ciphered text
+- Interactive workbench flow for rapid trial-and-error analysis
+- Suited to forensics and CTF string investigation
+- Complements encode/decode chain tools with broader text sleuthing
 
 ---
 
@@ -39,6 +44,7 @@ Text analysis, pattern detection, cryptanalysis
 
 ```bash
 ./ODecipher
+./ODecipher --help
 ```
 
 ---
